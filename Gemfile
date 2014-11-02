@@ -17,6 +17,8 @@ group :development do
 end
 
 group :development, :test do
+  gem 'spring-commands-rspec'
+  gem 'guard-rspec'
   gem 'pry'
   gem 'pry-nav'
   gem 'rspec-rails', '2.99'
