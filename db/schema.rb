@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150114064515) do
+ActiveRecord::Schema.define(version: 20150406050206) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -30,13 +30,6 @@ ActiveRecord::Schema.define(version: 20150114064515) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "category_id"
-  end
-
-  create_table "vidoes", force: true do |t|
-    t.string "title"
-    t.text   "description"
-    t.string "small_cover_url"
-    t.string "large_cover_url"
   end
 
 end
