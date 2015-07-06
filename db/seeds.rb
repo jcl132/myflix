@@ -20,4 +20,4 @@ Video.create(title: "South Park", description: "Crazy kids", small_cover_url: '/
 Video.create(title: "Family Guy", description: "Family man", small_cover_url: '/tmp/family_guy.jpg', large_cover_url: '/tmp/family_guy.jpg', category: comedy)
 Video.create(title: "Family Guy", description: "Family man", small_cover_url: '/tmp/family_guy.jpg', large_cover_url: '/tmp/family_guy.jpg', category: comedy)
 
-
+user1 = User.create(email: "jason@example.com", password: "briggs999", full_name: "Jason Li")
